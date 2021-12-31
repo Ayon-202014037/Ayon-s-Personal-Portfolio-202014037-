@@ -887,7 +887,7 @@ button
 .contact .info-box .social-links a:hover {
   color: #18d26e;
 }
-.contact .php-email-form {
+ .contact .php-email-form {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
 }
@@ -927,7 +927,7 @@ button
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
+} 
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
