@@ -14,7 +14,7 @@
      if(error){
 
      } else{
-       alert("DONE");
+       alert("Your response has been recorded. Thanks for your valuable time!");
      }
    }
 
