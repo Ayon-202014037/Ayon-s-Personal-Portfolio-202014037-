@@ -504,6 +504,23 @@ section .container {
   margin-bottom: 10px;
 }
 
+.education .card
+{
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #212529;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-right: 25px;
+    
+}
+
+
 /*..............................................................
 # Course
 ..............................................................*/
@@ -682,63 +699,15 @@ button
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
-.contact-form .form-field
-{
-  position: relative;
-  margin: 32px 0;
-}
-
-.contact-form .input-text
-{
-  display: block;
-  width: 100%;
-  height: 36px;
-  border-width: 0 0 2px 0;
-  border-color:aquamarine;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 26px;
-
-}
-.contact-form .input-text:focus + .label,
-.contact-form .input-text:focus.not-empty + .label
-{
-  transform: translateY(-24px);
-}
 
 
-.contact-form .input-text:focus
-{
-  outline: none;
-}
 
-.contact-form .label
-{
-  position: absolute;
-  left: 20px;
-  bottom: 28px;
-  font-size: 18px;
-  line-height: 36px;
-  font-weight: 400;
-  color: #5543ca;
-  cursor: text;
-  transition: transform 0.2s ease-in-out;
-  text-transform: capitalize;
-}
 
-.contact-form .submit-btn
-{
-  display: inline-block;
-  background-image: linear-gradient(125 deg, #a72879,#064497);
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 14px;
-  padding: 8px 8px;
-  border:#444444;
-  width: 150px;
 
-}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Credits
