@@ -171,6 +171,7 @@ let contactInfo2 = firebase.database().ref("User");
     }
   }
   
+  retrieveInfos2();
   
   
   
