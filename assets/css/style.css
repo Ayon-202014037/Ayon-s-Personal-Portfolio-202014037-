@@ -730,16 +730,25 @@ section .container {
   color: #fff;
 }
 
-.infosResults2 div p
+/*.infosResults2 div p
 {
   width: 80%;
   margin: 10px auto;
   background: rgb(224,224,224);
   padding: 5px;
   border-bottom: 3px solid lightgray;
+}*/
+
+.contact .info-box .quote
+{
+  text-align: center;
+  
 }
 
-
+.contact .info-box .reference
+{
+  text-align: center;
+}
 
 
 

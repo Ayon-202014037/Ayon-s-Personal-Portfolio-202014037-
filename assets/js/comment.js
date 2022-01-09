@@ -76,17 +76,17 @@ function gotData(data)
       
       let infosResults = document.querySelector(".infosResults");
 
-    infosResults.innerHTML += ` <div>
+    infosResults.innerHTML += `<div>
     <p><strong>Name: <strong/>${name} <br/>
     <a><strong>Email: <strong/>${email}</a> <br/>
     <a><strong>Subject: <strong/>${subject}</a> <br/>
     <a><strong>Message: <strong/>${message}</a> 
     </p>
-    </div> `;
+    </div>`;
   }
 }
 
-retrieveInfos();
+//retrieveInfos();
 
 
 
@@ -98,7 +98,7 @@ retrieveInfos();
 
 
 
-let contactInfo2 = firebase.database().ref("User");
+/*let contactInfo2 = firebase.database().ref("User");
   
   document.querySelector(".contact-comment").addEventListener("submit",show);
   
@@ -171,7 +171,7 @@ let contactInfo2 = firebase.database().ref("User");
     }
   }
   
-  retrieveInfos2();
+  //retrieveInfos2();
   
   
   
