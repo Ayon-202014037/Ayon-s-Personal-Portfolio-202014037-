@@ -714,7 +714,12 @@ section .container {
     
 }
 
-.blogs h4 .card-title
+.blogs-1 h4 .card-title
+{
+  color: #18d26e;
+}
+
+.blogs-2 h4 .card-title
 {
   color: #18d26e;
 }
