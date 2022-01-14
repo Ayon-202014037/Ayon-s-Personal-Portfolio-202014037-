@@ -1,4 +1,5 @@
-const firebaseConfig = {
+const firebaseConfig =
+{
   apiKey: "AIzaSyBFm2fi238vkBaJNZCF8EX4C3sSu6b2tuQ",
   authDomain: "data-store-15f74.firebaseapp.com",
   databaseURL: "https://data-store-15f74-default-rtdb.firebaseio.com",
@@ -86,7 +87,7 @@ function gotData(data)
   }
 }
 
-//retrieveInfos();
+retrieveInfos();
 
 
 

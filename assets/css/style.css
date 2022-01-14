@@ -216,6 +216,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+
+
 /**
 * Mobile Navigation 
 */
@@ -695,30 +697,28 @@ section .container {
 # Blogs
 --------------------------------------------------------------*/
 
-.blogs .para-1
+
+.blogs .card
 {
-  margin-top: 20px;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #212529;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-right: 25px;
+    
 }
 
-.blogs .sec-2
+.blogs h4 .card-title
 {
-  margin: 0;
-  margin: 10px 0 15px 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
   color: #18d26e;
 }
 
-.infosResults div p
-{
-  width: 80%;
-  margin: 30px auto;
-  background: rgb(224,224,224);
-  padding: 20px;
-  border-bottom: 3px solid lightgray;
-}
 
 /*--------------------------------------------------------------
 # Contact
